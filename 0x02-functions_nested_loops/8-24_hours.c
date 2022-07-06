@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer = a functioon to print a conuter of Jack Bowers
+ * jack_bauer - a functioon to print a conuter of Jack Bowers
  * days from 00:00 to 23:59
  * Return: void
  */
