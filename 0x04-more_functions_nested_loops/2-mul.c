@@ -3,7 +3,7 @@
 /**
  * mul - multiplies two numbers
  * @a: first value
- * @c: second value
+ * @b: second value
  * Return: result of multiplication
  */
 
