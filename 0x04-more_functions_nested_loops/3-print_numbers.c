@@ -2,14 +2,14 @@
 
 /**
  * print_numbers - prints 0 to 9
- * No return value
+ * Return: Void
  */
 
 void print_numbers(void)
 {
-	int c = 0;
+	int c;
 
-	for (c; c < 10; c++)
+	for (c = 0; c < 10; c++)
 		_putchar(c + '0');
 	_putchar('\n');
 }
