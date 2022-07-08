@@ -21,7 +21,7 @@ int main(void)
 		else
 			printf("%d ", c);
 	}
-	printf("Buzz");
+	printf("Buzz\n");
 	return (0);
 
 }
