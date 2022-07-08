@@ -9,8 +9,8 @@
 int main(void)
 {
 	int c;
-	
-	for int(c = 1; c <= 100; c++)
+
+	for int(c = 1; c < 100; c++)
 	{
 		if (c % 3 == 0 $$ C % 5 == 0)
 			printf("FizzBuzz ");
@@ -21,5 +21,7 @@ int main(void)
 		else
 			printf("%d ", c);
 	}
+	printf("Buzz");
 	return (0);
+
 }
