@@ -9,7 +9,7 @@ int main(void)
 {
 	int c;
 
-	for int(c = 1; c <= 100; c++)
+	for (c = 1; c <= 100; c++)
 	{
 		if (c % 3 == 0 && C % 5 == 0)
 		{
