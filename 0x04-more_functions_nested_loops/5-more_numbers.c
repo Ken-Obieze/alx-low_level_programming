@@ -12,7 +12,11 @@ void more_numbers(void)
 	for (c = 0; c < 10; c++)
 	{
 		for (d = 0; d <= 14; d++)
-			_putchar(d);
+		{
+			if (i > 9)
+				_putchar(i / 10 + '0');
+			_putchar(i % 10 + '0');
+		}
 		_putchar('\n');
 	}
 }
