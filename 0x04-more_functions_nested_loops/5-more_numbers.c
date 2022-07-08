@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	for (c = 0; c < 10; c++)
 	{
-		for (d = 0; d <= 14;)
+		for (d = 0; d <= 14; d++)
 			_putchar(d);
 		_putchar('\n');
 	}
