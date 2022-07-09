@@ -1,20 +1,20 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_triangle - triangle size
  * @size: integer
- * Return:void
-*
-*/
+ * Return: void
+ */
 
 void print_triangle(int size)
 {
-	int i = 1, j;
+	int i = 1;
+	int j;
 	int n = size - 1;
 
 	if (size > 0)
 	{
-		for (; i < size; i++)
+		for (; i <= size; i++)
 		{
 			for (j = 0; j < size; j++)
 			{
