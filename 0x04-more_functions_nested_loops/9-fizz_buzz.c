@@ -24,9 +24,7 @@ int main(void)
 			printf(" Buzz");
 		}
 		else if (c == 1)
-		{
-			printf("%i", c);
-		}
+			printf("1");	
 		else
 		{
 			printf(" %i", c);
