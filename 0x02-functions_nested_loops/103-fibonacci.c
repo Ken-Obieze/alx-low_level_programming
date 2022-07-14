@@ -17,8 +17,7 @@ int main(void)
 	{
 		if (j <= 4000000 && (j % 2) == 0)
 			sum += j;
-		else
-			printf("%ld\n", j);
+
 		n = j + k;
 		j = k;
 		k = n;
