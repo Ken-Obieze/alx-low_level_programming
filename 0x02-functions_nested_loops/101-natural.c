@@ -2,7 +2,6 @@
 
 /**
  * main - computes summ of all multiples
- * 
  * Return: Always zero
  */
 
