@@ -21,7 +21,7 @@ int main(void)
 			printf("%ld\n", j);
 		n = j + k;
 		j = k;
-		k = n
+		k = n;
 	}
 	printf("%lu\n", sum);
 
