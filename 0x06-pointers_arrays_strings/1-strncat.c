@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _strncat - joins strings together taking only specified number of bit from sourse
+ * _strncat - joins strings together taking 
+ * only specified number of bit from sourse
  * @dest: original string
  * @src: string to be appended
  * @n: conttrol bit
