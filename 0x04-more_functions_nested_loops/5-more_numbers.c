@@ -16,7 +16,7 @@ void more_numbers(void)
 		for (d = 0; d <= 14; d++)
 		{
 
-			if (d >= 10 )
+			if (d >= 10)
 			{
 
 				_putchar('1');
