@@ -1,3 +1,4 @@
+	global start
 	extern printf
 start:
 	mov edi, output
