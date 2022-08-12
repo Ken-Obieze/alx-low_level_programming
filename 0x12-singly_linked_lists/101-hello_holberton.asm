@@ -1,6 +1,6 @@
-	global start
+	global main
 	extern printf
-start:
+main:
 	mov edi, output
 	call printf
 	mov eax, 0
