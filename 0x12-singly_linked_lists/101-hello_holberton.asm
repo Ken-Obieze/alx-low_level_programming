@@ -6,5 +6,6 @@ start:
 	xor eax, eax
 	call printf
 	mov eax, 0
-	ret:
+	ret
+
 output: db 'Hello, Holberton', o
