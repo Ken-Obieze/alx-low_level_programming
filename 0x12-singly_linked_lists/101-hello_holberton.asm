@@ -8,4 +8,5 @@ start:
 	mov eax, 0
 	ret
 
-output: db 'Hello, Holberton', o
+output: db 'Hello, Holberton', 0
+	ret
