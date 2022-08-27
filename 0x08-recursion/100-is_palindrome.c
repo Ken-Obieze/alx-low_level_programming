@@ -1,4 +1,14 @@
-#include "main.h"
+trlen_recursion - returns length of string
+ * @s: string to return is length
+ * Return: length of string
+ */
+
+int _strlen_recursion(char *s)
+{
+        if (*s == '\0')
+                return (0);
+        return (1 + _strlen_recursion(s + 1));
+}include "main.h"
 
 /**
  * is_palindrome - checks if a string is palindrome
