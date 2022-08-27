@@ -1,4 +1,7 @@
-trlen_recursion - returns length of string
+#include "main.h"
+
+/**
+ * _strlen_recursion - returns length of string
  * @s: string to return is length
  * Return: length of string
  */
