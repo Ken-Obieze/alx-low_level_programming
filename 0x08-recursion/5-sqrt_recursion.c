@@ -8,8 +8,6 @@
 
 int _sqrt_recursion(int n)
 {
-	int i = 0;
-
 	if (n < 0)
 		return (-1);
 	return (f_sqrt_recursion(n, 0));
