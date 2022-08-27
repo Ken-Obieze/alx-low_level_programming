@@ -31,6 +31,7 @@ int wildcmp(char *s1, char *s2)
 		sum += bsnatch(s1 + 1, s2);
 		return (sum);
 	}
+	return (0);
 }
 
 /**
