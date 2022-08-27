@@ -45,8 +45,8 @@ int bsnatch (char *s1, char *s2)
 	if (*s1 == '\0')
 		return (0);
 	if (*s1 == *s2)
-		return (wildcmps(s1, s2));
-	return (bsnatch(s1 + 1, s2);
+		return (wildcmp(s1, s2));
+	return (bsnatch(s1 + 1, s2));
 }
 
 /**
@@ -58,7 +58,7 @@ int bsnatch (char *s1, char *s2)
 char *move(char *s2)
 {
 	if (*s2 == '*')
-		return (move(s2 + 1 );
+		return (move(s2 + 1 ));
 	else
 		return (s2);
 }
