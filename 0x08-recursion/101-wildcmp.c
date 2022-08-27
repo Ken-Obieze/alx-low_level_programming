@@ -29,7 +29,7 @@ int wildcmp(char *s1, char *s2)
 		if (*s1 == *s2)
 			sum += wildcmp(s1 + 1, s2 + 1);
 		sum += bsnatch(s1 + 1, s2);
-		return (sum);
+		return (!!sum);
 	}
 	return (0);
 }
@@ -41,7 +41,7 @@ int wildcmp(char *s1, char *s2)
  * Return: value of comparison
  */
 
-int bsnatch (char *s1, char *s2)
+int bsnatch(char *s1, char *s2)
 {
 	if (*s1 == '\0')
 		return (0);
