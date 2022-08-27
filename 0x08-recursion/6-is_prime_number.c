@@ -19,7 +19,7 @@ int is_prime_number(int n)
  * Return: 1 if prime else 0
  */
 
-int f_sqrt_recursion(int n, int i)
+int f_is_prime_number(int n, int i)
 {
 	if (i == 1)
 		return (1);
