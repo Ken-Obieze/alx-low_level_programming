@@ -8,8 +8,6 @@
 
 int is_prime_number(int n)
 {
-	int i = 0;
-
 	if (n <= 1)
 		return (0);
 	return (f_is_prime_number(n, n - 1));
