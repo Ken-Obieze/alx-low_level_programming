@@ -31,12 +31,12 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	a = close(fdr);
-	b = close(fdw);
-	if (a < 0 || b < 0)
+	c = close(fdw);
+	if (a < 0 || c < 0)
 	{
 		if (a < 0)
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdr);
-		if (b < 0)
+		if (c < 0)
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdw);
 		exit(100);
 	}
