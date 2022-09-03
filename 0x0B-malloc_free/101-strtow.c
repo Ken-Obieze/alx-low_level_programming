@@ -17,7 +17,7 @@ char **strtow(char *str)
 	if (wrd == 0)
 		return (NULL);
 
-	grid = (char **)malloc(sizeof(char) * (wrd + 1));
+	grid = (char **)malloc(sizeof(char *) * (wrd + 1));
 	if (grid == NULL)
 		return (NULL);
 
@@ -28,7 +28,7 @@ char **strtow(char *str)
 			if (c)
 			{
 				end = i;
-				tmp = (char*)malloc(sizeof(char) * (c + 1));
+				tmp = (char *)malloc(sizeof(char) * (c + 1));
 				if (tmp == NULL)
 					return (NULL);
 				while (start < end)
