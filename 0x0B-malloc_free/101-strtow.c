@@ -22,7 +22,7 @@ char **strtow(char *str)
 
 	for (i = 0; i <= l; i++)
 	{
-		if (str[i] == '' || str[i] == '\0')
+		if (str[i] == ' ' || str[i] == '\0')
 		{
 			if (c)
 			{
@@ -57,7 +57,7 @@ int wrd_count(char *s)
 
 	for (c = 0; s[c] != '\0'; c++)
 	{
-		if (s[c] == '')
+		if (s[c] == ' ')
 			flag = 0;
 		else if (flag == 0)
 		{
