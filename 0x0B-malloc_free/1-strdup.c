@@ -26,7 +26,7 @@ char *_strdup(char *str)
 	if (p == NULL)
 		return (NULL);
 
-	while ((dup[i] = str[i] != '\0'))
+	while ((p[i] = str[i] != '\0'))
 		i++;
 
 	return (p);
