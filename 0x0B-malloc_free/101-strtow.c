@@ -17,6 +17,7 @@ char **strtow(char *str)
 	if (wrd == 0)
 		return (NULL);
 
+	grid = (char **)malloc(sizeof(char) * (wrd + 1));
 	if (grid == NULL)
 		return (NULL);
 
