@@ -27,7 +27,7 @@ char *argstostr(int ac, char **av)
 	if (p == NULL)
 		return (NULL);
 
-	for (i = 0; 1 < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
 		{
@@ -35,7 +35,7 @@ char *argstostr(int ac, char **av)
 			k++;
 		}
 		p[k] = '\n';
-		k++;
+		k++
 	}
 	return (p);
 }
