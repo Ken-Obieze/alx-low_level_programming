@@ -16,16 +16,16 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		str = va_arg (list, char *);
+		str = va_arg(list, char *);
 		if (!str)
 			str = "(nil)";
-		if (!seperator)
+		if (!separator)
 			printf("%s", str);
-		else if (seperator && i == 0)
+		else if (separator && i == 0)
 			printf("%s", str);
 		else
-			printf("%s%s", seperator, str);
+			printf("%s%s", separator, str);
 	}
-	va_end (list);
+	va_end(list);
 	printf('\n');
 }
