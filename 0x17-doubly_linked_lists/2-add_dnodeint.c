@@ -1,4 +1,4 @@
-#include "lsits.h"
+#include "lists.h"
 
 /*
  * add_dnodeint - adds new node to beginning of list
