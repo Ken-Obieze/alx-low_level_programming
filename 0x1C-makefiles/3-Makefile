@@ -6,7 +6,6 @@ RM = rm -f
 
 all : $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-	$(CC) $(OBJ) -o school
 
 clean :
 	$(RM) *~$(NAME)
