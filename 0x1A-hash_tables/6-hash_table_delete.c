@@ -12,16 +12,16 @@ void hash_table_delete(hash_table_t *ht)
 
 	for (index = 0; index < ht->size; index++)
 	{
-		if (ht->array[index] != NULL)
+		if (ht->array[index])
 		{
 			item = ht->array[index];
 			while (item)
 			{
 				temp = item->next;
-				free(item->key);
-				free(item->value);
-				free(item);
-				item = temp;
+                                free(item->key);
+                                free(item->value);
+                                free(item);
+                                item = temp;
 			}
 		}
 	}
